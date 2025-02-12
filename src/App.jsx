@@ -43,8 +43,8 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-items-start min-h-screen">
       <header>
-        <h1 className="mb-5 mt-5">Search Films</h1>
-        <div className="border border-gray-200 rounded-full flex items-center justify-center focus-within:border-blue-500">
+        <h1 className="mb-5 mt-5">MovieMania🎬</h1>
+        <div className="border border-gray-200 rounded-full flex items-center justify-center focus-within:border-blue-600">
           <form
             onSubmit={handleSubmit}
             className="flex items-center justify-center gap-2"
@@ -65,7 +65,7 @@ function App() {
               name="query"
               className="h-10 flex-grow bg-transparent outline-none px-2"
               type="text"
-              placeholder="Avengers, Start War ..."
+              placeholder="Avengers, Joker ..."
             />
             <button className="bg-gray-400 rounded-full h-8 w-8 items-center justify-center relative hover:bg-amber-50">
               <img
@@ -89,7 +89,7 @@ function App() {
         {error && <p className="text-red-500">{error}</p>}
       </header>
       <main className="mt-5">
-        {loading ? <p>Cargando...</p> : <Movies movies={movies} />}
+        {loading ? <p>Loading...</p> : <Movies movies={movies} />}
       </main>
     </div>
   );

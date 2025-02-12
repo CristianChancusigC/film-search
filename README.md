@@ -2,12 +2,18 @@
 
 This is a React JS application that allows users to search for films using the [OMDb API](https://www.omdbapi.com/). The app demonstrates best practices for consuming APIs in React and focuses on writing clean, efficient code.
 
+[Live Demo](https://cristianchancusigc.github.io/film-search/)
+
 ## 🔍 Features
 
 Search for Films: Users can search for movies and display the results in a clean, user-friendly format.
 Real-Time Search: Utilizes debounce to avoid unnecessary API calls.
 Efficient State Management: Implements hooks like useMemo, useCallback, and custom hooks to optimize performance.
 Clean Code: Focused on readability and maintainability through best coding practices.
+
+## 🚀 Live Demo
+
+Check out the live version of the portfolio [here](https://cristianchancusigc.github.io/film-search/).
 
 ## 📥 Installation and Usage
 

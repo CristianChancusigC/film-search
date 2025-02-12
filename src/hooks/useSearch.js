@@ -12,15 +12,15 @@ export function useSearch() {
     }
 
     if (search === "") {
-      setError("No se puede buscar una pelicula vacia");
+      setError("You can't look for an empty film.");
       return;
     }
     if (search.match(/^\d+$/)) {
-      setError("No se puede buscar una pelicula con un numero");
+      setError("You can't search for a film with a number.");
       return;
     }
     if (search.length < 3) {
-      setError("La busqueda debe tener al menos 3 caracteres");
+      setError("The search must be at least 3 characters long.");
       return;
     }
 
