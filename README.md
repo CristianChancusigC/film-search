@@ -1,28 +1,56 @@
-# Enunciado
+# 🎬 Film Search App
 
-Crea una aplicación para buscar películas
+This is a React JS application that allows users to search for films using the [OMDb API] (https://www.omdbapi.com/). The app demonstrates best practices for consuming APIs in React and focuses on writing clean, efficient code.
 
-API a usar: - https://www.omdbapi.com/
-https://www.omdbapi.com/?apikey=31e2f3d7&s=Avengers
+## 🔍 Features
 
-Consigue la API Key en la propia página web registrando tu email.
+Search for Films: Users can search for movies and display the results in a clean, user-friendly format.
+Real-Time Search: Utilizes debounce to avoid unnecessary API calls.
+Efficient State Management: Implements hooks like useMemo, useCallback, and custom hooks to optimize performance.
+Clean Code: Focused on readability and maintainability through best coding practices.
 
-Requerimientos:
+## 📥 Installation and Usage
 
-- Necesita mostrar un input para buscar la película y un botón para buscar.
+1. Clone the Repository:
 
-- Lista las películas y muestra el título, año y poster.
+```console
+   git clone https://github.com/CristianChancusigC/film-search.git
+   cd my-portfolio
+```
 
-- Que el formulario funcione
+2. Install Dependencies:
 
-- Haz que las películas se muestren en un grid responsive.
+```console
+   npm install
+```
 
-- Hacer el fetching de datos a la API
+3. Set Up the API Key:
 
-Primera iteración:
+- Visit OMDB API to get your API key.
+- Create a `.env` file in the project root directory with the following content:
 
-- Evitar que se haga la misma búsqueda dos veces seguidas.
+```console
+VITE_KEY_API = "your API Key"
+```
 
-- Haz que la búsqueda se haga automáticamente al escribir.
+4. Run the Development Server:
 
-- Evita que se haga la búsqueda continuamente al escribir (debounce)
+```console
+    npm run dev
+```
+
+5. Open the local development link in your browser to view the project.
+
+## Requirements
+
+- Vite
+- Tailwind CSS
+- Node.js/npm
+- just-debounce-it
+
+## 🎯 Challenges & Learnings
+
+This project was an opportunity to:
+
+Learn new hooks: `useMemo`, `useCallback`, and custom hooks for improved code organization and performance.
+Implement debounce: Used debounce to optimize API calls and improve the user experience.
