@@ -1,6 +1,6 @@
 # 🎬 Film Search App
 
-This is a React JS application that allows users to search for films using the [OMDb API] (https://www.omdbapi.com/). The app demonstrates best practices for consuming APIs in React and focuses on writing clean, efficient code.
+This is a React JS application that allows users to search for films using the [OMDb API](https://www.omdbapi.com/). The app demonstrates best practices for consuming APIs in React and focuses on writing clean, efficient code.
 
 ## 🔍 Features
 
